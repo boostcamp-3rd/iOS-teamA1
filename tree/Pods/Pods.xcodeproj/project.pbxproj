@@ -1,0 +1,1446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		AE614C0AC781396816875B7D140ED78F /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D320E20684ACB9367AFDBAF2554E78DB /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1F60826427BC6F9D37D1F3372EBAA31F /* BoosterCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA0C3CB9C2D5ED1D3A959134558B4AA /* BoosterCenter.swift */; };
+		229F340C766334A2D4A66C7B37FDAC8C /* BoosterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D19BD58971E0703A4D16A414E25EDA /* BoosterService.swift */; };
+		2F11515D3AB9F4B4D8CB424BEA857280 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		3745719E2D9DFA0056891DB08E891363 /* Pods-Gardener-NetworkFetcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D5B2DDCF930656568B1BA3CD7852E4 /* Pods-Gardener-NetworkFetcher-dummy.m */; };
+		4027ED65C4D0F84A3C84B59E70D95E84 /* URL+Booster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652DE002DDCF1B297B25D911D706DA72 /* URL+Booster.swift */; };
+		4C129516AFF47F7CB42764E597FB374B /* Pods-Gardener-tree-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CDAA51D1366A2F44BED98EAD7A907ED /* Pods-Gardener-tree-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57DCB3AC76AE978032E8C5EFA869F405 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		6AB38E1FB09E43E090F619FE59B4E610 /* Pods-Gardener-Widget-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2779D63A2F6C4DF8C24C8D8826E81FD /* Pods-Gardener-Widget-dummy.m */; };
+		77D362BB69D4C2322C95375456597E1A /* Pods-Gardener-TrendUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F05D0247434107DE1FC7AD383FAD50C7 /* Pods-Gardener-TrendUI-dummy.m */; };
+		78F3262FED385866EC7862133D6DFFEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		879DBF7A0DE9C20F45A420CE03E917F9 /* Pods-Gardener-Trend-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BED82FCD82DD120EF012FE09AC6A6B2 /* Pods-Gardener-Trend-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FDDFFC60112B59EAB203495BCB0A230 /* Booster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B241C1C7C5D8727DD8A255D6CA752 /* Booster-dummy.m */; };
+		915DBB87CB395BA1F978E1EE4429F6AE /* Booster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D21F0127D3A1F073AA72A30C0A38F37F /* Booster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93F8890606B4C79E1C17C79A7C5E7763 /* BoosterResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BED2CD3CDD19FB4C7C314A13ABA44 /* BoosterResult.swift */; };
+		9E0CB3A26052B90E8F5E21F1304DF5BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B00FD725705FD85DC29290A3B1763E09 /* Pods-Gardener-NetworkFetcher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 469BAE682A84C2A82242A958E5B37E2A /* Pods-Gardener-NetworkFetcher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B045A579922862B5302059D23628D59E /* Pods-Gardener-tree-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5E17BE45FCDEB9E2B6892588EA5975 /* Pods-Gardener-tree-dummy.m */; };
+		B2CC9DFEAC7274A12D84FB58DEC18182 /* Pods-Gardener-Widget-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0091C25CAE76F98A17469EAB0899FC7 /* Pods-Gardener-Widget-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B441F839A01811FDD4041AF7921F9F78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		BFB7A4807F5C512254D7FC777481B04C /* BoosterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD658BEBE25082F9D7F186FF9101520 /* BoosterEncoder.swift */; };
+		D35A1FAC0C60FC7CB4AE5E80ECC4DA2A /* BoosterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5C5FBD6A49930A448CEE0B0509AD1 /* BoosterResponse.swift */; };
+		D5EBBC65E1F63A31D79C370DE5E76A24 /* Pods-Gardener-TrendUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76BD1E009638F4A6AE9690E22F3B84CA /* Pods-Gardener-TrendUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D71A10F242C7D2D0C7CA4120B79BA33B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		DBB25D4ADE3339C393694B0DA5B65348 /* Pods-Gardener-Trend-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29220E27A64B7B1E5139E5DA3A215268 /* Pods-Gardener-Trend-dummy.m */; };
+		E693A2449ED53C16D6A78F0E6489757E /* BoosterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26FDE604C2AA99E7D765917B691125D /* BoosterError.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25595A662B33F561BA3EE46AA6B7031C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40E32DE01B25D6E7F53CBCB4BBCF2FFB;
+			remoteInfo = Booster;
+		};
+		51D48FB61823A2A1D498D2E620D1A266 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40E32DE01B25D6E7F53CBCB4BBCF2FFB;
+			remoteInfo = Booster;
+		};
+		81FEED626A09DF62564C29012D73ABF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40E32DE01B25D6E7F53CBCB4BBCF2FFB;
+			remoteInfo = Booster;
+		};
+		C5D0016AD976170CC3E9222D5C0ED161 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40E32DE01B25D6E7F53CBCB4BBCF2FFB;
+			remoteInfo = Booster;
+		};
+		DC52DA3F4E286A01E3DD91BE957A4EE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40E32DE01B25D6E7F53CBCB4BBCF2FFB;
+			remoteInfo = Booster;
+		};
+		DF1FE94789E253D9F3A257C696F6BDC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE614C0AC781396816875B7D140ED78F;
+			remoteInfo = SwiftLint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021E03D2CBBBF476CA41E7B9442579A8 /* Pods_Gardener_tree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Gardener_tree.framework; path = "Pods-Gardener-tree.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C08FCF526193FD2AC76B60E032A5872 /* Booster.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Booster.xcconfig; sourceTree = "<group>"; };
+		0E0529AAAF75FCA3ADAC73BA11318E23 /* Pods-Gardener-Trend-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gardener-Trend-Info.plist"; sourceTree = "<group>"; };
+		0E0B241C1C7C5D8727DD8A255D6CA752 /* Booster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Booster-dummy.m"; sourceTree = "<group>"; };
+		0FD658BEBE25082F9D7F186FF9101520 /* BoosterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoosterEncoder.swift; path = Sources/BoosterEncoder.swift; sourceTree = "<group>"; };
+		13551465D7FA24E47E24B2502837B611 /* Pods-Gardener-NetworkFetcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gardener-NetworkFetcher.release.xcconfig"; sourceTree = "<group>"; };
+		15FB2FFDFF31BE87C22E33CD35DAD71A /* Pods-Gardener-TrendUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gardener-TrendUI-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D3C17E1C9A6F7212790A3BBA62FC27A /* Pods_Gardener_Widget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Gardener_Widget.framework; path = "Pods-Gardener-Widget.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A2CB21997A0BD65130C125A11600D6 /* Pods-Gardener-Widget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gardener-Widget.debug.xcconfig"; sourceTree = "<group>"; };
+		2286A88A4DC00106CF4E77556663CA2A /* Booster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Booster.framework; path = Booster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F3F8B77304E5FC8599E1AE5D489D77 /* Pods-Gardener-Widget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gardener-Widget.release.xcconfig"; sourceTree = "<group>"; };
+		29220E27A64B7B1E5139E5DA3A215268 /* Pods-Gardener-Trend-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Gardener-Trend-dummy.m"; sourceTree = "<group>"; };
+		29A4D6617651D0F4B326B2E7EE368FF3 /* Pods-Gardener-NetworkFetcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Gardener-NetworkFetcher.modulemap"; sourceTree = "<group>"; };
+		2A7399C63109D2D38383B4B9B2611743 /* Pods-Gardener-Widget-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gardener-Widget-acknowledgements.plist"; sourceTree = "<group>"; };
+		35DE2D157C6F1CB777BA45A59CFDDA93 /* Pods-Gardener-tree-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gardener-tree-Info.plist"; sourceTree = "<group>"; };
+		394BED2CD3CDD19FB4C7C314A13ABA44 /* BoosterResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoosterResult.swift; path = Sources/BoosterResult.swift; sourceTree = "<group>"; };
+		3B52D046F0A7740BBFEA568C1AD366AF /* Pods-Gardener-Trend.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Gardener-Trend.modulemap"; sourceTree = "<group>"; };
+		4085D5A2B644CE6C23E6402133B71326 /* Pods-Gardener-tree.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Gardener-tree.modulemap"; sourceTree = "<group>"; };
+		421250516E93349B11B95DB54455BAB6 /* Pods-Gardener-Trend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gardener-Trend.release.xcconfig"; sourceTree = "<group>"; };
+		469BAE682A84C2A82242A958E5B37E2A /* Pods-Gardener-NetworkFetcher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Gardener-NetworkFetcher-umbrella.h"; sourceTree = "<group>"; };
+		54353104A669AA817B1B91B5A6D9C2FB /* Pods_Gardener_TrendUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Gardener_TrendUI.framework; path = "Pods-Gardener-TrendUI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBB4E2E65DB202D5624B9AABA9BE551 /* Pods-Gardener-Widget-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Gardener-Widget-acknowledgements.markdown"; sourceTree = "<group>"; };
+		652DE002DDCF1B297B25D911D706DA72 /* URL+Booster.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Booster.swift"; path = "Sources/URL+Booster.swift"; sourceTree = "<group>"; };
+		66FC1763A62C5B34FC01F998A6234D9A /* Pods-Gardener-Widget.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Gardener-Widget.modulemap"; sourceTree = "<group>"; };
+		6BED82FCD82DD120EF012FE09AC6A6B2 /* Pods-Gardener-Trend-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Gardener-Trend-umbrella.h"; sourceTree = "<group>"; };
+		6CDAA51D1366A2F44BED98EAD7A907ED /* Pods-Gardener-tree-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Gardener-tree-umbrella.h"; sourceTree = "<group>"; };
+		73594300004349560CA4F37D82E79CEC /* Pods-Gardener-tree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gardener-tree.release.xcconfig"; sourceTree = "<group>"; };
+		76BD1E009638F4A6AE9690E22F3B84CA /* Pods-Gardener-TrendUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Gardener-TrendUI-umbrella.h"; sourceTree = "<group>"; };
+		7B832AB628F228E925AB3D99B96A865F /* Pods-Gardener-TrendUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Gardener-TrendUI-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E495ED02B67910B25CEF8440B881C6A /* Pods-Gardener-Trend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gardener-Trend.debug.xcconfig"; sourceTree = "<group>"; };
+		85D5B2DDCF930656568B1BA3CD7852E4 /* Pods-Gardener-NetworkFetcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Gardener-NetworkFetcher-dummy.m"; sourceTree = "<group>"; };
+		8D259CBFA38A7F4D3015BBA870EF86D8 /* Pods-Gardener-TrendUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gardener-TrendUI.release.xcconfig"; sourceTree = "<group>"; };
+		8FA0C3CB9C2D5ED1D3A959134558B4AA /* BoosterCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoosterCenter.swift; path = Sources/BoosterCenter.swift; sourceTree = "<group>"; };
+		957F17284533377FA0C4F6BD13B9CF0D /* Pods-Gardener-tree-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Gardener-tree-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9598A424E0FD008651BB124688BE1F86 /* Pods-Gardener-NetworkFetcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gardener-NetworkFetcher.debug.xcconfig"; sourceTree = "<group>"; };
+		98A0EF2DDCF1BB3489787A04B5AF6433 /* Pods-Gardener-Trend-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Gardener-Trend-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B3E8D43D634F8621B4DED2556D42C09 /* Pods-Gardener-TrendUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gardener-TrendUI-Info.plist"; sourceTree = "<group>"; };
+		9B5E1614359D366D9F4E480079362C9F /* Pods-Gardener-NetworkFetcher-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Gardener-NetworkFetcher-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9CE20616D5A0EA0B4EF1F7D7FE1E75CE /* Pods_Gardener_NetworkFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Gardener_NetworkFetcher.framework; path = "Pods-Gardener-NetworkFetcher.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EA8E7D7DEE07711F37EDDBAE5B2962D /* Booster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Booster.modulemap; sourceTree = "<group>"; };
+		9F219A873388FE6263D4F8382E66ADA9 /* Pods-Gardener-tree-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gardener-tree-acknowledgements.plist"; sourceTree = "<group>"; };
+		9F6238E4515419B1738226190DC638CB /* Pods-Gardener-Trend-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gardener-Trend-acknowledgements.plist"; sourceTree = "<group>"; };
+		B1F11901AFBC6C785A34D7394F31D168 /* Pods-Gardener-TrendUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gardener-TrendUI.debug.xcconfig"; sourceTree = "<group>"; };
+		B96C52BEF197F91FF968073D78BEF733 /* Pods-Gardener-NetworkFetcher-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gardener-NetworkFetcher-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB81058C1DF8400D9E9F3177A110C296 /* Pods_Gardener_Trend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Gardener_Trend.framework; path = "Pods-Gardener-Trend.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8811B250DF28B0D207676377899714 /* Pods-Gardener-TrendUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Gardener-TrendUI.modulemap"; sourceTree = "<group>"; };
+		C2779D63A2F6C4DF8C24C8D8826E81FD /* Pods-Gardener-Widget-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Gardener-Widget-dummy.m"; sourceTree = "<group>"; };
+		C4C4AA2B577A1747F2DBA84CF9D20462 /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
+		C675B932F77ED318948CD2164EBA378A /* Pods-Gardener-Widget-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gardener-Widget-Info.plist"; sourceTree = "<group>"; };
+		C73F78E227F00DB583CD1C50BF5AD959 /* Pods-Gardener-NetworkFetcher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gardener-NetworkFetcher-Info.plist"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD5E17BE45FCDEB9E2B6892588EA5975 /* Pods-Gardener-tree-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Gardener-tree-dummy.m"; sourceTree = "<group>"; };
+		CF6939CBA90A12BB02AAE6F6A2019607 /* Booster-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Booster-Info.plist"; sourceTree = "<group>"; };
+		D21F0127D3A1F073AA72A30C0A38F37F /* Booster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Booster-umbrella.h"; sourceTree = "<group>"; };
+		D26FDE604C2AA99E7D765917B691125D /* BoosterError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoosterError.swift; path = Sources/BoosterError.swift; sourceTree = "<group>"; };
+		E0091C25CAE76F98A17469EAB0899FC7 /* Pods-Gardener-Widget-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Gardener-Widget-umbrella.h"; sourceTree = "<group>"; };
+		E1EB2011B9DB8230037564D4D9128D38 /* Booster-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Booster-prefix.pch"; sourceTree = "<group>"; };
+		E2E5C5FBD6A49930A448CEE0B0509AD1 /* BoosterResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoosterResponse.swift; path = Sources/BoosterResponse.swift; sourceTree = "<group>"; };
+		EAF605505D64CC393E8A04CFD5307F9C /* Pods-Gardener-tree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gardener-tree.debug.xcconfig"; sourceTree = "<group>"; };
+		F05D0247434107DE1FC7AD383FAD50C7 /* Pods-Gardener-TrendUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Gardener-TrendUI-dummy.m"; sourceTree = "<group>"; };
+		F9D19BD58971E0703A4D16A414E25EDA /* BoosterService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoosterService.swift; path = Sources/BoosterService.swift; sourceTree = "<group>"; };
+		FD9747C96C3DA59ECE12086377818A81 /* Pods-Gardener-tree-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Gardener-tree-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AA27E8719078B8B27D690346ACF1D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0CB3A26052B90E8F5E21F1304DF5BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FBF7CE635FEBB97A7F0CACCE59D950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F11515D3AB9F4B4D8CB424BEA857280 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79B1CD880B7A9F0689C3380CB53F730F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B441F839A01811FDD4041AF7921F9F78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6919DEADD49888E4D9C1611D3F0A8B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71A10F242C7D2D0C7CA4120B79BA33B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4DBB8816466852BD16D467F6C17894E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DCB3AC76AE978032E8C5EFA869F405 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9437A4662C8C47FDF2957DBC288241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F3262FED385866EC7862133D6DFFEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		289EEC2CFAE8925F5E90D7FD4900B4AB /* Pods-Gardener-Widget */ = {
+			isa = PBXGroup;
+			children = (
+				66FC1763A62C5B34FC01F998A6234D9A /* Pods-Gardener-Widget.modulemap */,
+				5BBB4E2E65DB202D5624B9AABA9BE551 /* Pods-Gardener-Widget-acknowledgements.markdown */,
+				2A7399C63109D2D38383B4B9B2611743 /* Pods-Gardener-Widget-acknowledgements.plist */,
+				C2779D63A2F6C4DF8C24C8D8826E81FD /* Pods-Gardener-Widget-dummy.m */,
+				C675B932F77ED318948CD2164EBA378A /* Pods-Gardener-Widget-Info.plist */,
+				E0091C25CAE76F98A17469EAB0899FC7 /* Pods-Gardener-Widget-umbrella.h */,
+				20A2CB21997A0BD65130C125A11600D6 /* Pods-Gardener-Widget.debug.xcconfig */,
+				22F3F8B77304E5FC8599E1AE5D489D77 /* Pods-Gardener-Widget.release.xcconfig */,
+			);
+			name = "Pods-Gardener-Widget";
+			path = "Target Support Files/Pods-Gardener-Widget";
+			sourceTree = "<group>";
+		};
+		45E283D7834E7F102FC7AFE8557398FB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF4A30EFFD7F9264D411C29F9251E98E /* Pods-Gardener-NetworkFetcher */,
+				65208264156469A4C86D7D2F9EF644CF /* Pods-Gardener-tree */,
+				54283397DEB8DAA27AF6320EA0BBD146 /* Pods-Gardener-Trend */,
+				46C9B3C9131603BD1B01936860BA3EF4 /* Pods-Gardener-TrendUI */,
+				289EEC2CFAE8925F5E90D7FD4900B4AB /* Pods-Gardener-Widget */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		46C9B3C9131603BD1B01936860BA3EF4 /* Pods-Gardener-TrendUI */ = {
+			isa = PBXGroup;
+			children = (
+				BF8811B250DF28B0D207676377899714 /* Pods-Gardener-TrendUI.modulemap */,
+				7B832AB628F228E925AB3D99B96A865F /* Pods-Gardener-TrendUI-acknowledgements.markdown */,
+				15FB2FFDFF31BE87C22E33CD35DAD71A /* Pods-Gardener-TrendUI-acknowledgements.plist */,
+				F05D0247434107DE1FC7AD383FAD50C7 /* Pods-Gardener-TrendUI-dummy.m */,
+				9B3E8D43D634F8621B4DED2556D42C09 /* Pods-Gardener-TrendUI-Info.plist */,
+				76BD1E009638F4A6AE9690E22F3B84CA /* Pods-Gardener-TrendUI-umbrella.h */,
+				B1F11901AFBC6C785A34D7394F31D168 /* Pods-Gardener-TrendUI.debug.xcconfig */,
+				8D259CBFA38A7F4D3015BBA870EF86D8 /* Pods-Gardener-TrendUI.release.xcconfig */,
+			);
+			name = "Pods-Gardener-TrendUI";
+			path = "Target Support Files/Pods-Gardener-TrendUI";
+			sourceTree = "<group>";
+		};
+		54283397DEB8DAA27AF6320EA0BBD146 /* Pods-Gardener-Trend */ = {
+			isa = PBXGroup;
+			children = (
+				3B52D046F0A7740BBFEA568C1AD366AF /* Pods-Gardener-Trend.modulemap */,
+				98A0EF2DDCF1BB3489787A04B5AF6433 /* Pods-Gardener-Trend-acknowledgements.markdown */,
+				9F6238E4515419B1738226190DC638CB /* Pods-Gardener-Trend-acknowledgements.plist */,
+				29220E27A64B7B1E5139E5DA3A215268 /* Pods-Gardener-Trend-dummy.m */,
+				0E0529AAAF75FCA3ADAC73BA11318E23 /* Pods-Gardener-Trend-Info.plist */,
+				6BED82FCD82DD120EF012FE09AC6A6B2 /* Pods-Gardener-Trend-umbrella.h */,
+				7E495ED02B67910B25CEF8440B881C6A /* Pods-Gardener-Trend.debug.xcconfig */,
+				421250516E93349B11B95DB54455BAB6 /* Pods-Gardener-Trend.release.xcconfig */,
+			);
+			name = "Pods-Gardener-Trend";
+			path = "Target Support Files/Pods-Gardener-Trend";
+			sourceTree = "<group>";
+		};
+		5B121BD3D307CAA465DB51BA6585F220 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F62F8EBF39F21B401261557B0C796026 /* Booster */,
+				934BAA9F50A34D07A0A9FD1177A4AF52 /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65208264156469A4C86D7D2F9EF644CF /* Pods-Gardener-tree */ = {
+			isa = PBXGroup;
+			children = (
+				4085D5A2B644CE6C23E6402133B71326 /* Pods-Gardener-tree.modulemap */,
+				957F17284533377FA0C4F6BD13B9CF0D /* Pods-Gardener-tree-acknowledgements.markdown */,
+				9F219A873388FE6263D4F8382E66ADA9 /* Pods-Gardener-tree-acknowledgements.plist */,
+				CD5E17BE45FCDEB9E2B6892588EA5975 /* Pods-Gardener-tree-dummy.m */,
+				FD9747C96C3DA59ECE12086377818A81 /* Pods-Gardener-tree-frameworks.sh */,
+				35DE2D157C6F1CB777BA45A59CFDDA93 /* Pods-Gardener-tree-Info.plist */,
+				6CDAA51D1366A2F44BED98EAD7A907ED /* Pods-Gardener-tree-umbrella.h */,
+				EAF605505D64CC393E8A04CFD5307F9C /* Pods-Gardener-tree.debug.xcconfig */,
+				73594300004349560CA4F37D82E79CEC /* Pods-Gardener-tree.release.xcconfig */,
+			);
+			name = "Pods-Gardener-tree";
+			path = "Target Support Files/Pods-Gardener-tree";
+			sourceTree = "<group>";
+		};
+		71072E77AABEE2E3A81505EEAFBDEEC1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EA8E7D7DEE07711F37EDDBAE5B2962D /* Booster.modulemap */,
+				0C08FCF526193FD2AC76B60E032A5872 /* Booster.xcconfig */,
+				0E0B241C1C7C5D8727DD8A255D6CA752 /* Booster-dummy.m */,
+				CF6939CBA90A12BB02AAE6F6A2019607 /* Booster-Info.plist */,
+				E1EB2011B9DB8230037564D4D9128D38 /* Booster-prefix.pch */,
+				D21F0127D3A1F073AA72A30C0A38F37F /* Booster-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Booster";
+			sourceTree = "<group>";
+		};
+		934BAA9F50A34D07A0A9FD1177A4AF52 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				D416233770018EB114F2E6BADFE6F5EB /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AF4A30EFFD7F9264D411C29F9251E98E /* Pods-Gardener-NetworkFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				29A4D6617651D0F4B326B2E7EE368FF3 /* Pods-Gardener-NetworkFetcher.modulemap */,
+				9B5E1614359D366D9F4E480079362C9F /* Pods-Gardener-NetworkFetcher-acknowledgements.markdown */,
+				B96C52BEF197F91FF968073D78BEF733 /* Pods-Gardener-NetworkFetcher-acknowledgements.plist */,
+				85D5B2DDCF930656568B1BA3CD7852E4 /* Pods-Gardener-NetworkFetcher-dummy.m */,
+				C73F78E227F00DB583CD1C50BF5AD959 /* Pods-Gardener-NetworkFetcher-Info.plist */,
+				469BAE682A84C2A82242A958E5B37E2A /* Pods-Gardener-NetworkFetcher-umbrella.h */,
+				9598A424E0FD008651BB124688BE1F86 /* Pods-Gardener-NetworkFetcher.debug.xcconfig */,
+				13551465D7FA24E47E24B2502837B611 /* Pods-Gardener-NetworkFetcher.release.xcconfig */,
+			);
+			name = "Pods-Gardener-NetworkFetcher";
+			path = "Target Support Files/Pods-Gardener-NetworkFetcher";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5B121BD3D307CAA465DB51BA6585F220 /* Pods */,
+				E145873E32BE2D2469DB9B9A7E56D529 /* Products */,
+				45E283D7834E7F102FC7AFE8557398FB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D416233770018EB114F2E6BADFE6F5EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4C4AA2B577A1747F2DBA84CF9D20462 /* SwiftLint.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		E145873E32BE2D2469DB9B9A7E56D529 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2286A88A4DC00106CF4E77556663CA2A /* Booster.framework */,
+				9CE20616D5A0EA0B4EF1F7D7FE1E75CE /* Pods_Gardener_NetworkFetcher.framework */,
+				021E03D2CBBBF476CA41E7B9442579A8 /* Pods_Gardener_tree.framework */,
+				BB81058C1DF8400D9E9F3177A110C296 /* Pods_Gardener_Trend.framework */,
+				54353104A669AA817B1B91B5A6D9C2FB /* Pods_Gardener_TrendUI.framework */,
+				1D3C17E1C9A6F7212790A3BBA62FC27A /* Pods_Gardener_Widget.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F62F8EBF39F21B401261557B0C796026 /* Booster */ = {
+			isa = PBXGroup;
+			children = (
+				8FA0C3CB9C2D5ED1D3A959134558B4AA /* BoosterCenter.swift */,
+				0FD658BEBE25082F9D7F186FF9101520 /* BoosterEncoder.swift */,
+				D26FDE604C2AA99E7D765917B691125D /* BoosterError.swift */,
+				E2E5C5FBD6A49930A448CEE0B0509AD1 /* BoosterResponse.swift */,
+				394BED2CD3CDD19FB4C7C314A13ABA44 /* BoosterResult.swift */,
+				F9D19BD58971E0703A4D16A414E25EDA /* BoosterService.swift */,
+				652DE002DDCF1B297B25D911D706DA72 /* URL+Booster.swift */,
+				71072E77AABEE2E3A81505EEAFBDEEC1 /* Support Files */,
+			);
+			name = Booster;
+			path = Booster;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00B09FF801DD27B9C8C1B607B8502FD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00FD725705FD85DC29290A3B1763E09 /* Pods-Gardener-NetworkFetcher-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1557682ECD7964461329783B539168F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C129516AFF47F7CB42764E597FB374B /* Pods-Gardener-tree-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DDCBDF13DFD0E2CE456310CFD726FF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879DBF7A0DE9C20F45A420CE03E917F9 /* Pods-Gardener-Trend-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6849156612C43F03D7A6C65FE2C26F46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915DBB87CB395BA1F978E1EE4429F6AE /* Booster-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90FF8C68EE1D7629684136036DEDBF7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EBBC65E1F63A31D79C370DE5E76A24 /* Pods-Gardener-TrendUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2C82AE1238BBD555742934FE0D5C9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CC9DFEAC7274A12D84FB58DEC18182 /* Pods-Gardener-Widget-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0757E23A1A75D10BC1AD23D61FD0290F /* Pods-Gardener-Trend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F34A9A64872F96B8BFC440FE2B98825 /* Build configuration list for PBXNativeTarget "Pods-Gardener-Trend" */;
+			buildPhases = (
+				1DDCBDF13DFD0E2CE456310CFD726FF6 /* Headers */,
+				5D14EB26B0CE8E02A6B4D6ABE35B36DF /* Sources */,
+				A6919DEADD49888E4D9C1611D3F0A8B1 /* Frameworks */,
+				44DDC24AC2CC23925789D28CB3AD1551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7059CF0EDE3DB599C346F19E8A539AED /* PBXTargetDependency */,
+			);
+			name = "Pods-Gardener-Trend";
+			productName = "Pods-Gardener-Trend";
+			productReference = BB81058C1DF8400D9E9F3177A110C296 /* Pods_Gardener_Trend.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		17A1EB8CDD4FB278DB08B66E82157EE2 /* Pods-Gardener-Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4EC6E96668D3B204B0DBA6C1AAF2F6A /* Build configuration list for PBXNativeTarget "Pods-Gardener-Widget" */;
+			buildPhases = (
+				EE2C82AE1238BBD555742934FE0D5C9A /* Headers */,
+				95E7FC9934C6250DFC6A4E57DD5E7FA7 /* Sources */,
+				D4DBB8816466852BD16D467F6C17894E /* Frameworks */,
+				5C26FF430A2C0C1CFA209B3C5F88BD59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C98429745A6E46C0F0ADD582284EE7FC /* PBXTargetDependency */,
+			);
+			name = "Pods-Gardener-Widget";
+			productName = "Pods-Gardener-Widget";
+			productReference = 1D3C17E1C9A6F7212790A3BBA62FC27A /* Pods_Gardener_Widget.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		275528134C4551A5C210A9C5EB5A04C4 /* Pods-Gardener-TrendUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521FAAD7F17F5047212D05F3344A8D7A /* Build configuration list for PBXNativeTarget "Pods-Gardener-TrendUI" */;
+			buildPhases = (
+				90FF8C68EE1D7629684136036DEDBF7D /* Headers */,
+				4613FE441FB7BC23410C4CEE391C1109 /* Sources */,
+				ED9437A4662C8C47FDF2957DBC288241 /* Frameworks */,
+				8F4BBBF57408FD6027E2BAECED69399C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF81E33304598485BE675EE979B8A924 /* PBXTargetDependency */,
+			);
+			name = "Pods-Gardener-TrendUI";
+			productName = "Pods-Gardener-TrendUI";
+			productReference = 54353104A669AA817B1B91B5A6D9C2FB /* Pods_Gardener_TrendUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		40E32DE01B25D6E7F53CBCB4BBCF2FFB /* Booster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB243EB62B5B30ACF862706FA5A1DC06 /* Build configuration list for PBXNativeTarget "Booster" */;
+			buildPhases = (
+				6849156612C43F03D7A6C65FE2C26F46 /* Headers */,
+				CD0737795D4210C3EB66C5A2CA7EB059 /* Sources */,
+				20FBF7CE635FEBB97A7F0CACCE59D950 /* Frameworks */,
+				3D5F70391130960E26B9CD8144BD2899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Booster;
+			productName = Booster;
+			productReference = 2286A88A4DC00106CF4E77556663CA2A /* Booster.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73E87273FEBA041E6CFE5E5A9A3EB645 /* Pods-Gardener-NetworkFetcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82A3DF3B10B0F36DA6EBA8D44EA7EE74 /* Build configuration list for PBXNativeTarget "Pods-Gardener-NetworkFetcher" */;
+			buildPhases = (
+				00B09FF801DD27B9C8C1B607B8502FD2 /* Headers */,
+				B945EDD9D9E0D747161D19EB97889AD3 /* Sources */,
+				0AA27E8719078B8B27D690346ACF1D94 /* Frameworks */,
+				C5D1D23A907DA6A30820D01235783A33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A40B795B390D63A1D1B5F568649E25A /* PBXTargetDependency */,
+			);
+			name = "Pods-Gardener-NetworkFetcher";
+			productName = "Pods-Gardener-NetworkFetcher";
+			productReference = 9CE20616D5A0EA0B4EF1F7D7FE1E75CE /* Pods_Gardener_NetworkFetcher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9601D22C9BC2AB7C0E6063F82576C5B1 /* Pods-Gardener-tree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAED685B19CE715BB82F505FD5A1F9C /* Build configuration list for PBXNativeTarget "Pods-Gardener-tree" */;
+			buildPhases = (
+				1557682ECD7964461329783B539168F9 /* Headers */,
+				26EC931AFA887EDA0F6135E956DDB933 /* Sources */,
+				79B1CD880B7A9F0689C3380CB53F730F /* Frameworks */,
+				DB283090287F831115255D7D430550D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3058BF2DE97501C88EF4EF6EAA93F012 /* PBXTargetDependency */,
+				75502784A6E942E11AE66E51A4BE041D /* PBXTargetDependency */,
+			);
+			name = "Pods-Gardener-tree";
+			productName = "Pods-Gardener-tree";
+			productReference = 021E03D2CBBBF476CA41E7B9442579A8 /* Pods_Gardener_tree.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E145873E32BE2D2469DB9B9A7E56D529 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40E32DE01B25D6E7F53CBCB4BBCF2FFB /* Booster */,
+				73E87273FEBA041E6CFE5E5A9A3EB645 /* Pods-Gardener-NetworkFetcher */,
+				9601D22C9BC2AB7C0E6063F82576C5B1 /* Pods-Gardener-tree */,
+				0757E23A1A75D10BC1AD23D61FD0290F /* Pods-Gardener-Trend */,
+				275528134C4551A5C210A9C5EB5A04C4 /* Pods-Gardener-TrendUI */,
+				17A1EB8CDD4FB278DB08B66E82157EE2 /* Pods-Gardener-Widget */,
+				AE614C0AC781396816875B7D140ED78F /* SwiftLint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D5F70391130960E26B9CD8144BD2899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44DDC24AC2CC23925789D28CB3AD1551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C26FF430A2C0C1CFA209B3C5F88BD59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F4BBBF57408FD6027E2BAECED69399C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D1D23A907DA6A30820D01235783A33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB283090287F831115255D7D430550D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26EC931AFA887EDA0F6135E956DDB933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B045A579922862B5302059D23628D59E /* Pods-Gardener-tree-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4613FE441FB7BC23410C4CEE391C1109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D362BB69D4C2322C95375456597E1A /* Pods-Gardener-TrendUI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D14EB26B0CE8E02A6B4D6ABE35B36DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB25D4ADE3339C393694B0DA5B65348 /* Pods-Gardener-Trend-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E7FC9934C6250DFC6A4E57DD5E7FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB38E1FB09E43E090F619FE59B4E610 /* Pods-Gardener-Widget-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B945EDD9D9E0D747161D19EB97889AD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3745719E2D9DFA0056891DB08E891363 /* Pods-Gardener-NetworkFetcher-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0737795D4210C3EB66C5A2CA7EB059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDDFFC60112B59EAB203495BCB0A230 /* Booster-dummy.m in Sources */,
+				1F60826427BC6F9D37D1F3372EBAA31F /* BoosterCenter.swift in Sources */,
+				BFB7A4807F5C512254D7FC777481B04C /* BoosterEncoder.swift in Sources */,
+				E693A2449ED53C16D6A78F0E6489757E /* BoosterError.swift in Sources */,
+				D35A1FAC0C60FC7CB4AE5E80ECC4DA2A /* BoosterResponse.swift in Sources */,
+				93F8890606B4C79E1C17C79A7C5E7763 /* BoosterResult.swift in Sources */,
+				229F340C766334A2D4A66C7B37FDAC8C /* BoosterService.swift in Sources */,
+				4027ED65C4D0F84A3C84B59E70D95E84 /* URL+Booster.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A40B795B390D63A1D1B5F568649E25A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Booster;
+			target = 40E32DE01B25D6E7F53CBCB4BBCF2FFB /* Booster */;
+			targetProxy = 51D48FB61823A2A1D498D2E620D1A266 /* PBXContainerItemProxy */;
+		};
+		3058BF2DE97501C88EF4EF6EAA93F012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Booster;
+			target = 40E32DE01B25D6E7F53CBCB4BBCF2FFB /* Booster */;
+			targetProxy = 81FEED626A09DF62564C29012D73ABF1 /* PBXContainerItemProxy */;
+		};
+		7059CF0EDE3DB599C346F19E8A539AED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Booster;
+			target = 40E32DE01B25D6E7F53CBCB4BBCF2FFB /* Booster */;
+			targetProxy = C5D0016AD976170CC3E9222D5C0ED161 /* PBXContainerItemProxy */;
+		};
+		75502784A6E942E11AE66E51A4BE041D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = AE614C0AC781396816875B7D140ED78F /* SwiftLint */;
+			targetProxy = DF1FE94789E253D9F3A257C696F6BDC9 /* PBXContainerItemProxy */;
+		};
+		C98429745A6E46C0F0ADD582284EE7FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Booster;
+			target = 40E32DE01B25D6E7F53CBCB4BBCF2FFB /* Booster */;
+			targetProxy = DC52DA3F4E286A01E3DD91BE957A4EE7 /* PBXContainerItemProxy */;
+		};
+		EF81E33304598485BE675EE979B8A924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Booster;
+			target = 40E32DE01B25D6E7F53CBCB4BBCF2FFB /* Booster */;
+			targetProxy = 25595A662B33F561BA3EE46AA6B7031C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E54470584F1E4068016D77BC2116B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421250516E93349B11B95DB54455BAB6 /* Pods-Gardener-Trend.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gardener-Trend/Pods-Gardener-Trend-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gardener-Trend/Pods-Gardener-Trend.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30BEFE5A79D3D05CE103F41237321AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E495ED02B67910B25CEF8440B881C6A /* Pods-Gardener-Trend.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gardener-Trend/Pods-Gardener-Trend-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gardener-Trend/Pods-Gardener-Trend.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		36EF6AD9557B7FA8B5F872850D1769A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9598A424E0FD008651BB124688BE1F86 /* Pods-Gardener-NetworkFetcher.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gardener-NetworkFetcher/Pods-Gardener-NetworkFetcher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gardener-NetworkFetcher/Pods-Gardener-NetworkFetcher.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39B035ED55B79268D64E70E9B460415A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4C4AA2B577A1747F2DBA84CF9D20462 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4093433A309EFE160336AC736594AB22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4C1CC0A615A973175DDCD7C31345773E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73594300004349560CA4F37D82E79CEC /* Pods-Gardener-tree.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gardener-tree/Pods-Gardener-tree-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gardener-tree/Pods-Gardener-tree.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6388C77E03A14FB3C80DF12A2C2A6CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C08FCF526193FD2AC76B60E032A5872 /* Booster.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Booster/Booster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Booster/Booster-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Booster/Booster.modulemap";
+				PRODUCT_MODULE_NAME = Booster;
+				PRODUCT_NAME = Booster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70DBA9FAFF4CBA6C1C063AAA905872FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22F3F8B77304E5FC8599E1AE5D489D77 /* Pods-Gardener-Widget.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gardener-Widget/Pods-Gardener-Widget-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gardener-Widget/Pods-Gardener-Widget.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B0AB7C1E4E366275299C0497D8B2A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAF605505D64CC393E8A04CFD5307F9C /* Pods-Gardener-tree.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gardener-tree/Pods-Gardener-tree-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gardener-tree/Pods-Gardener-tree.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FF0106FAF6BF94B95B4D38EAF4292A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C08FCF526193FD2AC76B60E032A5872 /* Booster.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Booster/Booster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Booster/Booster-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Booster/Booster.modulemap";
+				PRODUCT_MODULE_NAME = Booster;
+				PRODUCT_NAME = Booster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		871317D546FB90099637D30E57D91664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13551465D7FA24E47E24B2502837B611 /* Pods-Gardener-NetworkFetcher.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gardener-NetworkFetcher/Pods-Gardener-NetworkFetcher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gardener-NetworkFetcher/Pods-Gardener-NetworkFetcher.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D5FAD0F231BB9889FC16C3963D44508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4C4AA2B577A1747F2DBA84CF9D20462 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		924D56B1D59CD3049300EAEEA256114E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F1F8A8EBB9F7B39A93286BDCB439176D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D259CBFA38A7F4D3015BBA870EF86D8 /* Pods-Gardener-TrendUI.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gardener-TrendUI/Pods-Gardener-TrendUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gardener-TrendUI/Pods-Gardener-TrendUI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC6FA7F42E10AB4E7ED057F113EEBC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20A2CB21997A0BD65130C125A11600D6 /* Pods-Gardener-Widget.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gardener-Widget/Pods-Gardener-Widget-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gardener-Widget/Pods-Gardener-Widget.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FEE422B7E63FD17E840115220E671F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1F11901AFBC6C785A34D7394F31D168 /* Pods-Gardener-TrendUI.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gardener-TrendUI/Pods-Gardener-TrendUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gardener-TrendUI/Pods-Gardener-TrendUI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4093433A309EFE160336AC736594AB22 /* Debug */,
+				924D56B1D59CD3049300EAEEA256114E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521FAAD7F17F5047212D05F3344A8D7A /* Build configuration list for PBXNativeTarget "Pods-Gardener-TrendUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE422B7E63FD17E840115220E671F79 /* Debug */,
+				F1F8A8EBB9F7B39A93286BDCB439176D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F34A9A64872F96B8BFC440FE2B98825 /* Build configuration list for PBXNativeTarget "Pods-Gardener-Trend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BEFE5A79D3D05CE103F41237321AFD /* Debug */,
+				1E54470584F1E4068016D77BC2116B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82A3DF3B10B0F36DA6EBA8D44EA7EE74 /* Build configuration list for PBXNativeTarget "Pods-Gardener-NetworkFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EF6AD9557B7FA8B5F872850D1769A5 /* Debug */,
+				871317D546FB90099637D30E57D91664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D320E20684ACB9367AFDBAF2554E78DB /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5FAD0F231BB9889FC16C3963D44508 /* Debug */,
+				39B035ED55B79268D64E70E9B460415A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4EC6E96668D3B204B0DBA6C1AAF2F6A /* Build configuration list for PBXNativeTarget "Pods-Gardener-Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6FA7F42E10AB4E7ED057F113EEBC6D /* Debug */,
+				70DBA9FAFF4CBA6C1C063AAA905872FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAED685B19CE715BB82F505FD5A1F9C /* Build configuration list for PBXNativeTarget "Pods-Gardener-tree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B0AB7C1E4E366275299C0497D8B2A51 /* Debug */,
+				4C1CC0A615A973175DDCD7C31345773E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB243EB62B5B30ACF862706FA5A1DC06 /* Build configuration list for PBXNativeTarget "Booster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF0106FAF6BF94B95B4D38EAF4292A2 /* Debug */,
+				6388C77E03A14FB3C80DF12A2C2A6CE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
