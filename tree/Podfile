@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+abstract_target 'Gardener' do
+    use_frameworks!
+    pod 'Booster'
+    
+    target 'tree' do
+        pod 'SwiftLint'
+    end
+    target 'Trend' do
+    end
+    target 'TrendUI' do
+    end
+    target 'Widget' do
+    end
+    target 'NetworkFetcher' do
+    end
+end
